@@ -1,45 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pressure Kings</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem 0;
-        }
-        main {
-            padding: 2rem;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pressure Kings | Professional Pressure Washing Services</title>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Pressure Kings provides expert pressure washing services for residential and commercial properties.">
+        <meta name="keywords" content="pressure washing, professional pressure washing, residential pressure washing, commercial pressure washing, exterior cleaning, driveway cleaning, deck cleaning">
+        <meta name="author" content="Pressure Kings">
+        <meta name="robots" content="index, follow, max-image-preview:large">
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://pressurekings.org">
+
+        <!-- Open Graph Meta Tags (Facebook, LinkedIn, WhatsApp) -->
+        <meta property="og:title" content="Pressure Kings | Professional Pressure Washing Services">
+        <meta property="og:description" content="Providing expert pressure washing services to keep your property looking its best. Contact us today!">
+        <meta property="og:url" content="https://pressurekings.org">
+        <meta property="og:type" content="website">
+        <!-- <meta property="og:image" content="https://pressurekings.org/images/logo.jpg"> -->
+        <!-- <meta property="og:image:alt" content="Pressure Kings - Professional Pressure Washing Services"> -->
+    
+        <!-- Favicon -->
+        <link href="images/favicon.ico" rel="icon">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/website.css" rel="stylesheet">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+        <script>
+            function scrollToTop(event) {
+                event.preventDefault();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+        </script>
+    </head>
 <body>
-    <header>
-        <h1>Welcome to Pressure Kings</h1>
-    </header>
-    <main>
-        <p>This is a test index page for the Pressure Kings website.</p>
-        <p>Stay tuned for more updates!</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Pressure Kings. All rights reserved.</p>
-    </footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="scrollToTop(event)">
+                <!-- <img src="images/logo.jpg" alt="Pressure Kings Logo" height="40"> -->
+                Pressure Kings
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="scrollToTop(event)">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <section id="home" class="container rounded-container mt-5 text-center">
+        <!-- <div class="row">
+            <div class="col-md-12 d-flex flex-column justify-content-center">
+                <h1>Welcome to Pressure Kings</h1>
+                <br>
+                <p>Providing expert pressure washing services to keep your property looking its best.</p>
+            </div>
+        </div>
+        <hr> -->
+        <h3>Why Choose Pressure Kings?</h3>
+        <br>
+        <p>At Pressure Kings, we are committed to delivering exceptional pressure washing services that restore and enhance the appearance of your property. From driveways to decks, we ensure every surface is spotless and revitalized.</p>
+        <p>Contact us today for a free estimate or to learn more about how we can assist with your pressure washing needs. Experience the Pressure Kings difference today!</p>
+        <a href="#services" class="btn btn-primary mt-3">Our Services</a>
+        <a href="#contact" class="btn btn-primary mt-3">Get a Free Estimate</a>
+        <br>
+    </section>
+
+    <section id="services" class="container rounded-container mt-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row g-4">
+            <!-- Sidewalk Cleaning -->
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                <div class="service-box d-flex flex-column">
+                    <img src="images/sidewalk-cleaning.jpg" alt="Sidewalk Cleaning" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Sidewalk Cleaning</h4>
+                    <p>Keep your sidewalks clean and safe with our professional cleaning services.</p>
+                    <a href="services.html#sidewalk-cleaning" class="btn btn-primary mt-auto">Learn More</a>
+                </div>
+            </div>
+            <!-- Driveway Cleaning -->
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                <div class="service-box d-flex flex-column">
+                    <img src="images/driveway-cleaning.jpg" alt="Driveway Cleaning" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Driveway Cleaning</h4>
+                    <p>Restore the curb appeal of your home with our professional driveway cleaning services.</p>
+                    <a href="services.html#driveway-cleaning" class="btn btn-primary mt-auto">Learn More</a>
+                </div>
+            </div>
+            <!-- Deck Cleaning -->
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                <div class="service-box d-flex flex-column">
+                    <img src="images/deck-cleaning.png" alt="Deck Cleaning" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Deck Cleaning</h4>
+                    <p>We specialize in cleaning and restoring decks to their original beauty.</p>
+                    <a href="services.html#deck-cleaning" class="btn btn-primary mt-auto">Learn More</a>
+                </div>
+            </div>
+            <!-- Fence Cleaning -->
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                <div class="service-box d-flex flex-column">
+                    <img src="images/fence-cleaning.png" alt="Fence Cleaning" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Fence Cleaning</h4>
+                    <p>Enhance the look of your property with our thorough fence cleaning services.</p>
+                    <a href="services.html#fence-cleaning" class="btn btn-primary mt-auto">Learn More</a>
+                </div>
+            </div>
+            <!-- House Washing -->
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                <div class="service-box d-flex flex-column">
+                    <img src="images/house-cleaning.png" alt="House Washing" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">House Washing</h4>
+                    <p>Our house washing service removes dirt, grime, and mildew to make your home shine.</p>
+                    <a href="services.html#house-washing" class="btn btn-primary mt-auto">Learn More</a>
+                </div>
+            </div>
+            <!-- Parking Lot Cleaning -->
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                <div class="service-box d-flex flex-column">
+                    <img src="images/parking-lot-cleaning.jpg" alt="Parking Lot Cleaning" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Parking Lot Cleaning</h4>
+                    <p>Maintain a clean and professional appearance with our parking lot cleaning services.</p>
+                    <a href="services.html#parking-lot-cleaning" class="btn btn-primary mt-auto">Learn More</a>
+                </div>
+            </div>
+            <!-- Trash Bin Cleanout -->
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                <div class="service-box d-flex flex-column">
+                    <img src="images/trash-bin-cleanout.jpg" alt="Trash Bin Cleanout" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Trash Bin Cleanout</h4>
+                    <p>Eliminate odors and grime with our thorough trash bin cleanout services.</p>
+                    <a href="services.html#trash-bin-cleanout" class="btn btn-primary mt-auto">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="container rounded-container mt-5 text-center">
+        <h2><b>Need a Quote or Have a Question?</b></h2>
+        <h2><b>Get in Touch With Us</b></h2>
+        <br>
+        <p>We’d love to hear from you! Fill out the form below, and our team will get back to you as soon as possible.</p>
+        <br>
+        <form id="contact-form" action="" method="POST">
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject <span style="color: red;">*</span></label>
+                <select name="subject" id="subject" class="form-select" required>
+                    <option value="Free Estimate">Free Estimate</option>
+                    <option value="Pressure Washing Request">Pressure Washing Request</option>
+                    <option value="Service Request">Service Request</option>
+                    <option value="Career Opportunities">Career Opportunities</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="description" class="form-label">Description <span style="color: red;">*</span></label>
+                <textarea name="description" id="description" class="form-control" rows="4" placeholder="Please provide any details about your request, such as the type of pressure washing service you need or any questions you may have." required></textarea>
+            </div>
+        
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name <span style="color: red;">*</span></label>
+                <input type="text" name="name" id="name" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="email" class="form-label">Email <span style="color: red;">*</span></label>
+                <input type="email" name="email" id="email" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number <span style="color: red;">*</span></label>
+                <input type="tel" name="phone" id="phone" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="company" class="form-label">Company Name (Optional)</label>
+                <input type="text" name="company" id="company" class="form-control">
+            </div>
+        
+            <div class="mb-3">
+                <label for="job-title" class="form-label">Job Title (Optional)</label>
+                <input type="text" name="jobTitle" id="job-title" class="form-control">
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <script>
+        document.querySelectorAll('a.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href').substring(1);
+                if (document.getElementById(targetId)) {
+                    e.preventDefault();
+                    document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
