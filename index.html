@@ -130,7 +130,7 @@
             <!-- Parking Lot Cleaning -->
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
                 <div class="service-box d-flex flex-column">
-                    <img src="images/parking-lot-cleaning.jpg" alt="Parking Lot Cleaning" class="img-fluid rounded mb-3">
+                    <img src="images/parking-cleaning.png" alt="Parking Lot Cleaning" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Parking Lot Cleaning</h4>
                     <p>Maintain a clean and professional appearance with our parking lot cleaning services.</p>
                     <a href="services.html#parking-lot-cleaning" class="btn btn-primary mt-auto">Learn More</a>
@@ -139,7 +139,7 @@
             <!-- Trash Bin Cleanout -->
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
                 <div class="service-box d-flex flex-column">
-                    <img src="images/trash-bin-cleanout.jpg" alt="Trash Bin Cleanout" class="img-fluid rounded mb-3">
+                    <img src="images/trash-cleaning.png" alt="Trash Bin Cleanout" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Trash Bin Cleanout</h4>
                     <p>Eliminate odors and grime with our thorough trash bin cleanout services.</p>
                     <a href="services.html#trash-bin-cleanout" class="btn btn-primary mt-auto">Learn More</a>
@@ -155,17 +155,38 @@
         <br>
         <p>We’d love to hear from you! Fill out the form below, and our team will get back to you as soon as possible.</p>
         <br>
-        <form id="contact-form" action="" method="POST">
+        <form id="contact-form" action="https://formspree.io/f/mqapargl" method="POST">
             <div class="mb-3">
-                <label for="subject" class="form-label">Subject <span style="color: red;">*</span></label>
-                <select name="subject" id="subject" class="form-select" required>
-                    <option value="Free Estimate">Free Estimate</option>
-                    <option value="Pressure Washing Request">Pressure Washing Request</option>
-                    <option value="Service Request">Service Request</option>
-                    <option value="Career Opportunities">Career Opportunities</option>
-                    <option value="Feedback">Feedback</option>
-                    <option value="Other">Other</option>
+            <label for="subject" class="form-label">Subject <span style="color: red;">*</span></label>
+            <select name="subject" id="subject" class="form-select" required onchange="toggleServiceField(this.value)">
+                <option value="Free Estimate">Free Estimate</option>
+                <option value="All Services">All Services</option>
+                <option value="Career Opportunities">Career Opportunities</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+            </select>
+            <div id="service-field" class="mt-3" style="display: none;">
+                <label for="specific-service" class="form-label">Select a Specific Service</label>
+                <select name="specificService" id="specific-service" class="form-select">
+                    <option value="Sidewalk Cleaning">Sidewalk Cleaning</option>
+                    <option value="Driveway Cleaning">Driveway Cleaning</option>
+                    <option value="Deck Cleaning">Deck Cleaning</option>
+                    <option value="Fence Cleaning">Fence Cleaning</option>
+                    <option value="House Washing">House Washing</option>
+                    <option value="Parking Lot Cleaning">Parking Lot Cleaning</option>
+                    <option value="Trash Bin Cleanout">Trash Bin Cleanout</option>
                 </select>
+            </div>
+            <script>
+                function toggleServiceField(value) {
+                    const serviceField = document.getElementById('service-field');
+                    if (value === 'All Services') {
+                        serviceField.style.display = 'block';
+                    } else {
+                        serviceField.style.display = 'none';
+                    }
+                }
+            </script>
             </div>
         
             <div class="mb-3">
