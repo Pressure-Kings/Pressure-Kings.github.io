@@ -19,8 +19,8 @@
         <meta property="og:description" content="Providing expert pressure washing services to keep your property looking its best. Contact us today!">
         <meta property="og:url" content="https://pressurekings.org">
         <meta property="og:type" content="website">
-        <!-- <meta property="og:image" content="https://pressurekings.org/images/logo.jpg"> -->
-        <!-- <meta property="og:image:alt" content="Pressure Kings - Professional Pressure Washing Services"> -->
+        <meta property="og:image" content="https://pressurekings.org/images/logo.png"> -->
+        <meta property="og:image:alt" content="Pressure Kings - Professional Pressure Washing Services"> -->
     
         <!-- Favicon -->
         <link href="images/favicon.ico" rel="icon">
@@ -44,7 +44,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#" onclick="scrollToTop(event)">
-                <!-- <img src="images/logo.jpg" alt="Pressure Kings Logo" height="40"> -->
+                <img src="images/logo.png" alt="Pressure Kings Logo" height="60">
                 Pressure Kings
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,16 +62,9 @@
     <br>
     <br>
     <section id="home" class="container rounded-container mt-5 text-center">
-        <!-- <div class="row">
-            <div class="col-md-12 d-flex flex-column justify-content-center">
-                <h1>Welcome to Pressure Kings</h1>
-                <br>
-                <p>Providing expert pressure washing services to keep your property looking its best.</p>
-            </div>
-        </div>
-        <hr> -->
         <h3>Why Choose Pressure Kings?</h3>
         <br>
+        <p>Blast away dirt, bring back the shine! Expert pressure washing for a spotless home or business.</p>
         <p>At Pressure Kings, we are committed to delivering exceptional pressure washing services that restore and enhance the appearance of your property. From driveways to decks, we ensure every surface is spotless and revitalized.</p>
         <p>Contact us today for a free estimate or to learn more about how we can assist with your pressure washing needs. Experience the Pressure Kings difference today!</p>
         <a href="#services" class="btn btn-primary mt-3">Our Services</a>
@@ -88,7 +81,6 @@
                     <img src="images/sidewalk-cleaning.jpg" alt="Sidewalk Cleaning" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Sidewalk Cleaning</h4>
                     <p>Keep your sidewalks clean and safe with our professional cleaning services.</p>
-                    <a href="services.html#sidewalk-cleaning" class="btn btn-primary mt-auto">Learn More</a>
                 </div>
             </div>
             <!-- Driveway Cleaning -->
@@ -97,7 +89,6 @@
                     <img src="images/driveway-cleaning.jpg" alt="Driveway Cleaning" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Driveway Cleaning</h4>
                     <p>Restore the curb appeal of your home with our professional driveway cleaning services.</p>
-                    <a href="services.html#driveway-cleaning" class="btn btn-primary mt-auto">Learn More</a>
                 </div>
             </div>
             <!-- Deck Cleaning -->
@@ -106,7 +97,6 @@
                     <img src="images/deck-cleaning.png" alt="Deck Cleaning" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Deck Cleaning</h4>
                     <p>We specialize in cleaning and restoring decks to their original beauty.</p>
-                    <a href="services.html#deck-cleaning" class="btn btn-primary mt-auto">Learn More</a>
                 </div>
             </div>
             <!-- Fence Cleaning -->
@@ -115,7 +105,6 @@
                     <img src="images/fence-cleaning.png" alt="Fence Cleaning" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Fence Cleaning</h4>
                     <p>Enhance the look of your property with our thorough fence cleaning services.</p>
-                    <a href="services.html#fence-cleaning" class="btn btn-primary mt-auto">Learn More</a>
                 </div>
             </div>
             <!-- House Washing -->
@@ -124,7 +113,6 @@
                     <img src="images/house-cleaning.png" alt="House Washing" class="img-fluid rounded mb-3">
                     <h4 class="text-center">House Washing</h4>
                     <p>Our house washing service removes dirt, grime, and mildew to make your home shine.</p>
-                    <a href="services.html#house-washing" class="btn btn-primary mt-auto">Learn More</a>
                 </div>
             </div>
             <!-- Parking Lot Cleaning -->
@@ -133,7 +121,6 @@
                     <img src="images/parking-cleaning.png" alt="Parking Lot Cleaning" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Parking Lot Cleaning</h4>
                     <p>Maintain a clean and professional appearance with our parking lot cleaning services.</p>
-                    <a href="services.html#parking-lot-cleaning" class="btn btn-primary mt-auto">Learn More</a>
                 </div>
             </div>
             <!-- Trash Bin Cleanout -->
@@ -142,85 +129,105 @@
                     <img src="images/trash-cleaning.png" alt="Trash Bin Cleanout" class="img-fluid rounded mb-3">
                     <h4 class="text-center">Trash Bin Cleanout</h4>
                     <p>Eliminate odors and grime with our thorough trash bin cleanout services.</p>
-                    <a href="services.html#trash-bin-cleanout" class="btn btn-primary mt-auto">Learn More</a>
                 </div>
             </div>
         </div>
     </section>
     
 
-    <section id="contact" class="container rounded-container mt-5 text-center">
-        <h2><b>Need a Quote or Have a Question?</b></h2>
-        <h2><b>Get in Touch With Us</b></h2>
+    <section id="contact" class="container rounded-container mt-5">
+        <h2 class="text-center"><b>Need a Quote or Have a Question?</b></h2>
+        <h2 class="text-center"><b>Get in Touch With Us</b></h2>
         <br>
-        <p>We’d love to hear from you! Fill out the form below, and our team will get back to you as soon as possible.</p>
-        <br>
-        <form id="contact-form" action="https://formspree.io/f/mqapargl" method="POST">
-            <div class="mb-3">
-            <label for="subject" class="form-label">Subject <span style="color: red;">*</span></label>
-            <select name="subject" id="subject" class="form-select" required onchange="toggleServiceField(this.value)">
-                <option value="Free Estimate">Free Estimate</option>
-                <option value="All Services">All Services</option>
-                <option value="Career Opportunities">Career Opportunities</option>
-                <option value="Feedback">Feedback</option>
-                <option value="Other">Other</option>
-            </select>
-            <div id="service-field" class="mt-3" style="display: none;">
-                <label for="specific-service" class="form-label">Select a Specific Service</label>
-                <select name="specificService" id="specific-service" class="form-select">
-                    <option value="Sidewalk Cleaning">Sidewalk Cleaning</option>
-                    <option value="Driveway Cleaning">Driveway Cleaning</option>
-                    <option value="Deck Cleaning">Deck Cleaning</option>
-                    <option value="Fence Cleaning">Fence Cleaning</option>
-                    <option value="House Washing">House Washing</option>
-                    <option value="Parking Lot Cleaning">Parking Lot Cleaning</option>
-                    <option value="Trash Bin Cleanout">Trash Bin Cleanout</option>
-                </select>
+
+        <div class="row">
+            <!-- Contact Info -->
+            <div class="col-md-5 d-flex flex-column align-items-start">
+                <p class="text-center">We’d love to hear from you! Fill out the form or feel free to directly reach out, and our team will get back to you as soon as possible.</p>
+                <b>Phone:</b>
+                <p class="mb-3">
+                    <a href="tel:+19375335991" class="btn btn-primary d-block py-2" style="font-weight: bold;">937-533-5991</a>
+                </p>
+                <b>Follow us on Instagram:</b>
+                <p>
+                    <a href="https://www.instagram.com/pressurekings937" target="_blank" class="btn btn-primary d-block py-2" style="font-weight: bold;">@pressurekings937</a>
+                </p>
             </div>
-            <script>
-                function toggleServiceField(value) {
-                    const serviceField = document.getElementById('service-field');
-                    if (value === 'All Services') {
-                        serviceField.style.display = 'block';
-                    } else {
-                        serviceField.style.display = 'none';
-                    }
-                }
-            </script>
+            <!-- Contact Form -->
+            <div class="col-md-7">
+                <form id="contact-form" action="https://formspree.io/f/mqapargl" method="POST">
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject <span style="color: red;">*</span></label>
+                        <select name="subject" id="subject" class="form-select" required onchange="toggleServiceField(this.value)">
+                            <option value="Free Estimate">Free Estimate</option>
+                            <option value="All Services">All Services</option>
+                            <option value="Career Opportunities">Career Opportunities</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <div id="service-field" class="mt-3" style="display: none;">
+                            <label for="specific-service" class="form-label">Select a Specific Service</label>
+                            <select name="specificService" id="specific-service" class="form-select">
+                                <option value="Sidewalk Cleaning">Sidewalk Cleaning</option>
+                                <option value="Driveway Cleaning">Driveway Cleaning</option>
+                                <option value="Deck Cleaning">Deck Cleaning</option>
+                                <option value="Fence Cleaning">Fence Cleaning</option>
+                                <option value="House Washing">House Washing</option>
+                                <option value="Parking Lot Cleaning">Parking Lot Cleaning</option>
+                                <option value="Trash Bin Cleanout">Trash Bin Cleanout</option>
+                            </select>
+                        </div>
+                        <script>
+                            function toggleServiceField(value) {
+                                const serviceField = document.getElementById('service-field');
+                                if (value === 'All Services') {
+                                    serviceField.style.display = 'block';
+                                } else {
+                                    serviceField.style.display = 'none';
+                                }
+                            }
+                        </script>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description <span style="color: red;">*</span></label>
+                        <textarea name="description" id="description" class="form-control" rows="4" placeholder="Please provide any details about your request, such as the type of pressure washing service you need or any questions you may have." required></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name <span style="color: red;">*</span></label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name, first and last" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email <span style="color: red;">*</span></label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number <span style="color: red;">*</span></label>
+                        <input type="tel" name="phone" id="phone" class="form-control" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address <span style="color: red;">*</span></label>
+                        <input type="text" name="address" id="address" class="form-control" placeholder="Enter your address" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="company" class="form-label">Company Name (Optional)</label>
+                        <input type="text" name="company" id="company" class="form-control" placeholder="Enter your company name if you are requesting services on behalf of a business">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="job-title" class="form-label">Job Title (Optional)</label>
+                        <input type="text" name="jobTitle" id="job-title" class="form-control" placeholder="Enter your job title if you are requesting services on behalf of a business">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-        
-            <div class="mb-3">
-                <label for="description" class="form-label">Description <span style="color: red;">*</span></label>
-                <textarea name="description" id="description" class="form-control" rows="4" placeholder="Please provide any details about your request, such as the type of pressure washing service you need or any questions you may have." required></textarea>
-            </div>
-        
-            <div class="mb-3">
-                <label for="name" class="form-label">Full Name <span style="color: red;">*</span></label>
-                <input type="text" name="name" id="name" class="form-control" required>
-            </div>
-        
-            <div class="mb-3">
-                <label for="email" class="form-label">Email <span style="color: red;">*</span></label>
-                <input type="email" name="email" id="email" class="form-control" required>
-            </div>
-        
-            <div class="mb-3">
-                <label for="phone" class="form-label">Phone Number <span style="color: red;">*</span></label>
-                <input type="tel" name="phone" id="phone" class="form-control" required>
-            </div>
-        
-            <div class="mb-3">
-                <label for="company" class="form-label">Company Name (Optional)</label>
-                <input type="text" name="company" id="company" class="form-control">
-            </div>
-        
-            <div class="mb-3">
-                <label for="job-title" class="form-label">Job Title (Optional)</label>
-                <input type="text" name="jobTitle" id="job-title" class="form-control">
-            </div>
-        
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
     </section>
 
     <script>
