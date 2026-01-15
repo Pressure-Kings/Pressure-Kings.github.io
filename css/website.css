@@ -1,3 +1,19 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 body {
     background: url('../images/background.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -23,12 +39,24 @@ body {
     background: #ffc107; /* Yellow background */
     border-radius: 15px;
     padding: 40px;
-    max-width: 900px;
+    max-width: 1200px; /* Increased from 900px for better layout */
     margin: 40px auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #000; /* Black text */
 }
+
+/* Spacing utilities to replace <br> tags */
+.section-spacing {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.vertical-spacing {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 
 .buttons {
     display: flex;
@@ -85,9 +113,10 @@ body {
     object-fit: cover; /* Ensures the image scales properly within the box */
     border-radius: 8px;
 }
-.service-box h4 {
+.service-box h3 {
     margin-top: 15px;
     font-weight: bold;
+    font-size: 1.5rem; /* h4 size */
     color: #ffc107; /* Yellow heading */
     align-self: flex-start; /* Align heading to the top */
 }
@@ -107,8 +136,22 @@ body {
         width: 90%;
     }
 
-    .service-box h4 {
+    .service-box h3 {
         align-self: center; /* Centers heading on small screens */
         text-align: center;
     }
 }
+
+/* Contact section styles */
+.contact-btn {
+    font-weight: bold;
+}
+
+.required-asterisk {
+    color: red;
+}
+
+.logo-large {
+    max-height: 300px;
+}
+
