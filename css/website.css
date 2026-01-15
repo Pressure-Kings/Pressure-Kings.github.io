@@ -129,3 +129,17 @@ body {
         text-align: center;
     }
 }
+
+/* Contact section styles */
+.contact-btn {
+    font-weight: bold;
+}
+
+.required-asterisk {
+    color: red;
+}
+
+.logo-large {
+    max-height: 300px;
+}
+
