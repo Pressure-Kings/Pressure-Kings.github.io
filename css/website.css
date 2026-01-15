@@ -3,6 +3,17 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Typography */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 body {
     background: url('../images/background.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -102,9 +113,10 @@ body {
     object-fit: cover; /* Ensures the image scales properly within the box */
     border-radius: 8px;
 }
-.service-box h4 {
+.service-box h3 {
     margin-top: 15px;
     font-weight: bold;
+    font-size: 1.5rem; /* h4 size */
     color: #ffc107; /* Yellow heading */
     align-self: flex-start; /* Align heading to the top */
 }
@@ -124,7 +136,7 @@ body {
         width: 90%;
     }
 
-    .service-box h4 {
+    .service-box h3 {
         align-self: center; /* Centers heading on small screens */
         text-align: center;
     }
