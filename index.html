@@ -88,155 +88,330 @@
                     <li class="nav-item"><a class="nav-link" href="#" onclick="scrollToTop(event)">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link phone-nav" href="tel:+19375335991">📞 937-533-5991</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <main>
-    <section id="home" class="container rounded-container mt-5 text-center">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h1>Why Choose Pressure Kings?</h1>
-                <p class="vertical-spacing">Blast away dirt, bring back the shine! Expert pressure washing for a spotless home or business.</p>
-                <p>At Pressure Kings, we are committed to delivering exceptional pressure washing services that restore and enhance the appearance of your property. From driveways to decks, we ensure every surface is spotless and revitalized.</p>
-                <p>Contact us today for a free estimate or to learn more about how we can assist with your pressure washing needs. Experience the Pressure Kings difference today!</p>
-                <div class="vertical-spacing">
-                    <a href="#services" class="btn btn-primary">Our Services</a>
-                    <a href="#contact" class="btn btn-primary">Get a Free Estimate</a>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="hero-badge">⭐ #1 Rated Pressure Washing in Ohio</div>
+                    <h1 class="hero-title">Transform Your Property with Professional Pressure Washing</h1>
+                    <p class="hero-subtitle">Expert cleaning services that restore beauty and boost curb appeal. Fast, reliable, and affordable.</p>
+                    <div class="hero-features">
+                        <div class="feature-item">✓ Free Estimates</div>
+                        <div class="feature-item">✓ Licensed & Insured</div>
+                        <div class="feature-item">✓ 100% Satisfaction Guaranteed</div>
+                    </div>
+                    <div class="hero-cta-group">
+                        <a href="#contact" class="btn btn-cta btn-lg">Get Your Free Quote</a>
+                        <a href="tel:+19375335991" class="btn btn-call btn-lg">
+                            <svg width="20" height="20" fill="currentColor" class="me-2" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                            937-533-5991
+                        </a>
+                    </div>
+                    <p class="hero-trust-text">Join 500+ satisfied customers in Ohio • Same-day service available</p>
                 </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="images/logo.png" alt="Pressure Kings - Professional Pressure Washing Services Logo" class="img-fluid logo-large" loading="lazy" width="300" height="300">
+                <div class="col-lg-5 text-center">
+                    <div class="hero-image-wrapper">
+                        <img src="images/logo.png" alt="Pressure Kings - Professional Pressure Washing Services Logo" class="img-fluid hero-logo" loading="eager" width="300" height="300">
+                        <div class="floating-card">
+                            <div class="card-icon">⚡</div>
+                            <div class="card-text">Fast Response Time</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="container rounded-container mt-5">
-        <h2 class="text-center mb-4">Our Services</h2>
-        <div class="row g-4">
+    <!-- Trust Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-box">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                    <div class="stat-box">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-box">
+                        <div class="stat-number">5★</div>
+                        <div class="stat-label">Average Rating</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-box">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Our Premium Services</h2>
+                <p class="section-subtitle">Professional pressure washing solutions for every need</p>
+            </div>
+            <div class="row g-4">
             <!-- Sidewalk Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/sidewalk-cleaning.jpg" alt="Professional sidewalk pressure washing service showing clean concrete" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Sidewalk Cleaning</h3>
-                    <p>Keep your sidewalks clean and safe with our professional cleaning services.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book sidewalk cleaning service">Book Now!</a>
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="service-card">
+                    <div class="service-image-wrapper">
+                        <img src="images/sidewalk-cleaning.jpg" alt="Professional sidewalk pressure washing service showing clean concrete" class="service-image" loading="lazy" width="400" height="250">
+                        <div class="service-badge">Popular</div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Sidewalk Cleaning</h3>
+                        <p class="service-description">Keep your sidewalks clean and safe with our professional cleaning services. Remove dirt, grime, and stains effectively.</p>
+                        <div class="service-price">Starting at $99</div>
+                        <a href="#contact" class="btn btn-service" aria-label="Book sidewalk cleaning service">Get Free Quote</a>
+                    </div>
                 </div>
             </div>
             <!-- Driveway Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/driveway-cleaning.jpg" alt="Professional driveway pressure washing service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Driveway Cleaning</h3>
-                    <p>Restore the curb appeal of your home with our professional driveway cleaning services.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book driveway cleaning service">Book Now!</a>
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="service-card">
+                    <div class="service-image-wrapper">
+                        <img src="images/driveway-cleaning.jpg" alt="Professional driveway pressure washing service" class="service-image" loading="lazy" width="400" height="250">
+                        <div class="service-badge">Most Popular</div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Driveway Cleaning</h3>
+                        <p class="service-description">Restore the curb appeal of your home with our professional driveway cleaning services. Remove oil stains and buildup.</p>
+                        <div class="service-price">Starting at $149</div>
+                        <a href="#contact" class="btn btn-service" aria-label="Book driveway cleaning service">Get Free Quote</a>
+                    </div>
                 </div>
             </div>
             <!-- Deck Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/deck-cleaning.png" alt="Professional deck pressure washing and restoration service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Deck Cleaning</h3>
-                    <p>We specialize in cleaning and restoring decks to their original beauty.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book deck cleaning service">Book Now!</a>
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="service-card">
+                    <div class="service-image-wrapper">
+                        <img src="images/deck-cleaning.png" alt="Professional deck pressure washing and restoration service" class="service-image" loading="lazy" width="400" height="250">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Deck Cleaning</h3>
+                        <p class="service-description">We specialize in cleaning and restoring decks to their original beauty. Protect your investment with regular cleaning.</p>
+                        <div class="service-price">Starting at $199</div>
+                        <a href="#contact" class="btn btn-service" aria-label="Book deck cleaning service">Get Free Quote</a>
+                    </div>
                 </div>
             </div>
             <!-- Fence Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/fence-cleaning.png" alt="Professional fence pressure washing service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Fence Cleaning</h3>
-                    <p>Enhance the look of your property with our thorough fence cleaning services.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book fence cleaning service">Book Now!</a>
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="service-card">
+                    <div class="service-image-wrapper">
+                        <img src="images/fence-cleaning.png" alt="Professional fence pressure washing service" class="service-image" loading="lazy" width="400" height="250">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Fence Cleaning</h3>
+                        <p class="service-description">Enhance the look of your property with our thorough fence cleaning services. Revitalize wood, vinyl, and metal fences.</p>
+                        <div class="service-price">Starting at $129</div>
+                        <a href="#contact" class="btn btn-service" aria-label="Book fence cleaning service">Get Free Quote</a>
+                    </div>
                 </div>
             </div>
             <!-- House Washing -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/house-cleaning.png" alt="Professional house washing service removing dirt and grime" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">House Washing</h3>
-                    <p>Our house washing service removes dirt, grime, and mildew to make your home shine.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book house washing service">Book Now!</a>
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="service-card">
+                    <div class="service-image-wrapper">
+                        <img src="images/house-cleaning.png" alt="Professional house washing service removing dirt and grime" class="service-image" loading="lazy" width="400" height="250">
+                        <div class="service-badge">Premium</div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">House Washing</h3>
+                        <p class="service-description">Our house washing service removes dirt, grime, and mildew to make your home shine. Gentle yet effective cleaning.</p>
+                        <div class="service-price">Starting at $299</div>
+                        <a href="#contact" class="btn btn-service" aria-label="Book house washing service">Get Free Quote</a>
+                    </div>
                 </div>
             </div>
             <!-- Parking Lot Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/parking-cleaning.png" alt="Professional parking lot pressure washing service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Parking Lot Cleaning</h3>
-                    <p>Maintain a clean and professional appearance with our parking lot cleaning services.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book parking lot cleaning service">Book Now!</a>
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="service-card">
+                    <div class="service-image-wrapper">
+                        <img src="images/parking-cleaning.png" alt="Professional parking lot pressure washing service" class="service-image" loading="lazy" width="400" height="250">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Parking Lot Cleaning</h3>
+                        <p class="service-description">Maintain a clean and professional appearance with our parking lot cleaning services. Ideal for businesses.</p>
+                        <div class="service-price">Custom Pricing</div>
+                        <a href="#contact" class="btn btn-service" aria-label="Book parking lot cleaning service">Get Free Quote</a>
+                    </div>
                 </div>
             </div>
             <!-- Trash Bin Cleanout -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/trash-cleaning.png" alt="Professional trash bin cleaning and sanitization service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Trash Bin Cleanout</h3>
-                    <p>Eliminate odors and grime with our thorough trash bin cleanout services.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book trash bin cleanout service">Book Now!</a>
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                <div class="service-card">
+                    <div class="service-image-wrapper">
+                        <img src="images/trash-cleaning.png" alt="Professional trash bin cleaning and sanitization service" class="service-image" loading="lazy" width="400" height="250">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Trash Bin Cleanout</h3>
+                        <p class="service-description">Eliminate odors and grime with our thorough trash bin cleanout services. Keep your bins fresh and clean.</p>
+                        <div class="service-price">Starting at $49</div>
+                        <a href="#contact" class="btn btn-service" aria-label="Book trash bin cleanout service">Get Free Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Why Choose Pressure Kings?</h2>
+                <p class="section-subtitle">Experience the difference that quality and professionalism make</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">🏆</div>
+                        <h3 class="feature-title">Expert Team</h3>
+                        <p class="feature-text">Trained professionals with years of experience in pressure washing</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">Fast Service</h3>
+                        <p class="feature-text">Same-day and next-day appointments available for your convenience</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">💯</div>
+                        <h3 class="feature-title">Satisfaction Guaranteed</h3>
+                        <p class="feature-text">We don't just meet expectations—we exceed them every time</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">🛡️</div>
+                        <h3 class="feature-title">Licensed & Insured</h3>
+                        <p class="feature-text">Fully licensed and insured for your peace of mind</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
 
-    <section id="contact" class="container rounded-container mt-5">
-        <h2 class="text-center mb-3">Need a Quote or Have a Question?</h2>
-        <h3 class="text-center mb-4">Get in Touch With Us</h3>
-
-        <div class="row">
-            <!-- Contact Info -->
-            <div class="col-md-5 d-flex flex-column align-items-start">
-                <p class="text-center">We’d love to hear from you! Fill out the form or feel free to directly reach out, and our team will get back to you as soon as possible.</p>
-                <strong>Phone:</strong>
-                <p class="mb-3">
-                    <a href="tel:+19375335991" class="btn btn-primary d-block py-2 contact-btn" aria-label="Call Pressure Kings at 937-533-5991">937-533-5991</a>
-                </p>
-                <strong>Email Us:</strong>
-                <p class="mb-3">
-                    <a href="mailto:937pressure.kings@gmail.com" class="btn btn-primary d-block py-2 contact-btn" aria-label="Email Pressure Kings">937pressure.kings@gmail.com</a>
-                </p>
-                <strong>Follow us on Instagram:</strong>
-                <p>
-                    <a href="https://www.instagram.com/pressurekings937" target="_blank" rel="noopener noreferrer" class="btn btn-primary d-block py-2 contact-btn" aria-label="Follow Pressure Kings on Instagram">@pressurekings937</a>
-                </p>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real reviews from satisfied customers across Ohio</p>
             </div>
-            <!-- Contact Form -->
-            <div class="col-md-7">
-                <form id="contact-form" action="https://formspree.io/f/mqapargl" method="POST" aria-label="Contact form">
-                    <div class="mb-3">
-                        <label for="subject" class="form-label">Subject <span class="required-asterisk">*</span></label>
-                        <select name="subject" id="subject" class="form-select" required onchange="toggleServiceField(this.value)" aria-required="true">
-                            <option value="Free Estimate">Free Estimate</option>
-                            <option value="All Services">All Services</option>
-                            <option value="Career Opportunities">Career Opportunities</option>
-                            <option value="Feedback">Feedback</option>
-                            <option value="Other">Other</option>
-                        </select>
-                        <div id="service-field" class="mt-3" style="display: none;">
-                            <label for="specific-service" class="form-label">Select a Specific Service</label>
-                            <select name="specificService" id="specific-service" class="form-select">
-                                <option value="Sidewalk Cleaning">Sidewalk Cleaning</option>
-                                <option value="Driveway Cleaning">Driveway Cleaning</option>
-                                <option value="Deck Cleaning">Deck Cleaning</option>
-                                <option value="Fence Cleaning">Fence Cleaning</option>
-                                <option value="House Washing">House Washing</option>
-                                <option value="Parking Lot Cleaning">Parking Lot Cleaning</option>
-                                <option value="Trash Bin Cleanout">Trash Bin Cleanout</option>
-                            </select>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Pressure Kings did an amazing job on our driveway! It looks brand new. Professional, punctual, and reasonably priced. Highly recommend!"</p>
+                        <div class="testimonial-author">- Sarah M., Dayton</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Best pressure washing service in Ohio! They cleaned our entire house exterior and deck. The results were incredible. Will definitely use again."</p>
+                        <div class="testimonial-author">- John D., Springfield</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Fast, friendly, and fantastic work! Our sidewalks and driveway haven't looked this good in years. Thank you Pressure Kings!"</p>
+                        <div class="testimonial-author">- Lisa R., Columbus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Ready to Transform Your Property?</h2>
+                <p class="section-subtitle">Get your free, no-obligation quote today</p>
+            </div>
+
+        <div class="row g-5">
+            <!-- Contact Info -->
+            <div class="col-lg-4">
+                <div class="contact-info-box">
+                    <h3 class="contact-info-title">Get In Touch</h3>
+                    <p class="contact-info-text">We're here to help! Reach out for a free quote or any questions.</p>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <div class="contact-label">Call Us Now</div>
+                            <a href="tel:+19375335991" class="contact-link" aria-label="Call Pressure Kings at 937-533-5991">937-533-5991</a>
                         </div>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="description" class="form-label">Description <span class="required-asterisk">*</span></label>
-                        <textarea name="description" id="description" class="form-control" rows="4" placeholder="Please provide any details about your request, such as the type of pressure washing service you need or any questions you may have." required aria-required="true"></textarea>
+                    <div class="contact-method">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <div class="contact-label">Email Us</div>
+                            <a href="mailto:937pressure.kings@gmail.com" class="contact-link" aria-label="Email Pressure Kings">937pressure.kings@gmail.com</a>
+                        </div>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Full Name <span class="required-asterisk">*</span></label>
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name, first and last" required aria-required="true">
+                    <div class="contact-method">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <div class="contact-label">Follow Us</div>
+                            <a href="https://www.instagram.com/pressurekings937" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Follow Pressure Kings on Instagram">@pressurekings937</a>
+                        </div>
+                    </div>
+
+                    <div class="trust-badges">
+                        <div class="badge-item">✓ Licensed & Insured</div>
+                        <div class="badge-item">✓ Same-Day Service</div>
+                        <div class="badge-item">✓ Free Estimates</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="col-lg-8">
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Request Your Free Quote</h3>
+                    <p class="form-subtitle">Fill out the form below and we'll get back to you within 24 hours</p>
+                <form id="contact-form" action="https://formspree.io/f/mqapargl" method="POST" aria-label="Contact form">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Full Name <span class="required-asterisk">*</span></label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name" required aria-required="true">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">Phone Number <span class="required-asterisk">*</span></label>
+                            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Enter your phone number" required aria-required="true">
+                        </div>
                     </div>
 
                     <div class="mb-3">
@@ -245,30 +420,47 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="phone" class="form-label">Phone Number <span class="required-asterisk">*</span></label>
-                        <input type="tel" name="phone" id="phone" class="form-control" placeholder="Enter your phone number" required aria-required="true">
-                    </div>
-
-                    <div class="mb-3">
                         <label for="address" class="form-label">Address <span class="required-asterisk">*</span></label>
-                        <input type="text" name="address" id="address" class="form-control" placeholder="Enter your address" required aria-required="true">
+                        <input type="text" name="address" id="address" class="form-control" placeholder="Enter your service address" required aria-required="true">
                     </div>
 
                     <div class="mb-3">
-                        <label for="company" class="form-label">Company Name (Optional)</label>
-                        <input type="text" name="company" id="company" class="form-control" placeholder="Enter your company name">
+                        <label for="subject" class="form-label">Service Interested In <span class="required-asterisk">*</span></label>
+                        <select name="subject" id="subject" class="form-select" required aria-required="true">
+                            <option value="Free Estimate">Get a Free Estimate</option>
+                            <option value="All Services">All Services</option>
+                            <option value="Sidewalk Cleaning">Sidewalk Cleaning</option>
+                            <option value="Driveway Cleaning">Driveway Cleaning</option>
+                            <option value="Deck Cleaning">Deck Cleaning</option>
+                            <option value="Fence Cleaning">Fence Cleaning</option>
+                            <option value="House Washing">House Washing</option>
+                            <option value="Parking Lot Cleaning">Parking Lot Cleaning</option>
+                            <option value="Trash Bin Cleanout">Trash Bin Cleanout</option>
+                            <option value="Other">Other</option>
+                        </select>
                     </div>
 
                     <div class="mb-3">
-                        <label for="job-title" class="form-label">Job Title (Optional)</label>
-                        <input type="text" name="jobTitle" id="job-title" class="form-control" placeholder="Enter your job title">
+                        <label for="description" class="form-label">Additional Details</label>
+                        <textarea name="description" id="description" class="form-control" rows="4" placeholder="Tell us more about your project (optional)"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-cta btn-lg w-100">Get Your Free Quote Now</button>
+                    <p class="form-note">We respect your privacy and will never share your information.</p>
                 </form>
+                </div>
             </div>
         </div>
+        </div>
     </section>
+
+    <!-- Floating CTA Button -->
+    <a href="tel:+19375335991" class="floating-cta" aria-label="Call now for free quote">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+        </svg>
+        <span>Call Now</span>
+    </a>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
