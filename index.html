@@ -35,7 +35,7 @@
         <link rel="dns-prefetch" href="https://formspree.io">
 
         <!-- Favicon -->
-        <link href="images/favicon.ico" rel="icon">
+        <link href="/images/favicon.ico" rel="icon">
     
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -86,6 +86,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#" onclick="scrollToTop(event)">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work-gallery">My Work</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
                 </ul>
@@ -94,88 +95,143 @@
     </nav>
 
     <main>
-    <section id="home" class="container rounded-container mt-5 text-center">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h1>Why Choose Pressure Kings?</h1>
-                <p class="vertical-spacing">Blast away dirt, bring back the shine! Expert pressure washing for a spotless home or business.</p>
-                <p>At Pressure Kings, we are committed to delivering exceptional pressure washing services that restore and enhance the appearance of your property. From driveways to decks, we ensure every surface is spotless and revitalized.</p>
-                <p>Contact us today for a free estimate or to learn more about how we can assist with your pressure washing needs. Experience the Pressure Kings difference today!</p>
-                <div class="vertical-spacing">
-                    <a href="#services" class="btn btn-primary">Our Services</a>
-                    <a href="#contact" class="btn btn-primary">Get a Free Estimate</a>
-                </div>
+    <section id="home" class="hero-video">
+
+        <div class="">
+            <img src="images/logo.png" alt="Pressure Kings Logo" height="250" width="250">
+        </div>
+
+        <div class="hero-content">
+
+            <h1>Why Choose Pressure Kings?</h1>
+
+            <p>
+                Blast away dirt, bring back the shine! Expert pressure washing for
+                a spotless home or business.
+            </p>
+
+            <p>
+                At Pressure Kings, we are committed to delivering exceptional
+                pressure washing services that restore and enhance the appearance
+                of your property.
+            </p>
+
+            <p>
+                Contact us today for a free estimate and experience the
+                Pressure Kings difference.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#work-gallery" class="btn btn-light">
+                    View My Work
+                </a>
+
+                <a href="#services" class="btn btn-warning">
+                    Our Services
+                </a>
+
+                <a href="#contact" class="btn btn-light">
+                    Get A Free Estimate
+                </a>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="images/logo.png" alt="Pressure Kings - Professional Pressure Washing Services Logo" class="img-fluid logo-large" loading="lazy" width="300" height="300">
-            </div>
+
         </div>
     </section>
+
+    <section id="work-gallery" class="container rounded-container mt-5">
+        <h2 class="text-center">My Work</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/gallery1.png" class="d-block w-100" alt="Description of image 1" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gallery2.PNG" class="d-block w-100" alt="Description of image 2" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gallery3.png" class="d-block w-100" alt="Description of image 3" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gallery4.png" class="d-block w-100" alt="Description of image 4" style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gallery5.png" class="d-block w-100" alt="Description of image 5" style="height: 400px; object-fit: cover;">
+                </div>
+                <!-- Add more images as needed -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <br>
+
+    <div class="trust-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">✓ Free Estimates</div>
+                <div class="col-md-3">✓ Residential & Commercial</div>
+                <div class="col-md-3">✓ Fully Insured</div>
+                <div class="col-md-3">✓ Satisfaction Guaranteed</div>
+            </div>
+        </div>
+    </div>
+
+    
 
     <section id="services" class="container rounded-container mt-5">
         <h2 class="text-center mb-4">Our Services</h2>
         <div class="row g-4">
             <!-- Sidewalk Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="service-box d-flex flex-column">
-                    <img src="images/sidewalk-cleaning.jpg" alt="Professional sidewalk pressure washing service showing clean concrete" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Sidewalk Cleaning</h3>
+                    <img src="images/sidewalk.png" alt="Sidewalk Cleaning" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Sidewalk Cleaning</h4>
                     <p>Keep your sidewalks clean and safe with our professional cleaning services.</p>
                     <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book sidewalk cleaning service">Book Now!</a>
                 </div>
             </div>
             <!-- Driveway Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="service-box d-flex flex-column">
-                    <img src="images/driveway-cleaning.jpg" alt="Professional driveway pressure washing service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Driveway Cleaning</h3>
+                    <img src="images/driveway.png" alt="Driveway Cleaning" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">Driveway Cleaning</h4>
                     <p>Restore the curb appeal of your home with our professional driveway cleaning services.</p>
                     <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book driveway cleaning service">Book Now!</a>
                 </div>
             </div>
             <!-- Deck Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="service-box d-flex flex-column">
-                    <img src="images/deck-cleaning.png" alt="Professional deck pressure washing and restoration service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Deck Cleaning</h3>
+                    <img src="images/gallery4.png" alt="Professional deck pressure washing and restoration service" class="img-fluid rounded mb-3" loading="lazy">
+                    <h4 class="text-center">Deck Cleaning</h4>
                     <p>We specialize in cleaning and restoring decks to their original beauty.</p>
                     <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book deck cleaning service">Book Now!</a>
                 </div>
             </div>
             <!-- Fence Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="service-box d-flex flex-column">
-                    <img src="images/fence-cleaning.png" alt="Professional fence pressure washing service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
+                    <img src="images/gallery3.png" alt="Professional fence pressure washing service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
                     <h3 class="text-center">Fence Cleaning</h3>
                     <p>Enhance the look of your property with our thorough fence cleaning services.</p>
                     <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book fence cleaning service">Book Now!</a>
                 </div>
             </div>
             <!-- House Washing -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="service-box d-flex flex-column">
-                    <img src="images/house-cleaning.png" alt="Professional house washing service removing dirt and grime" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">House Washing</h3>
+                    <img src="images/house.jpg" alt="House Washing" class="img-fluid rounded mb-3">
+                    <h4 class="text-center">House Washing</h4>
                     <p>Our house washing service removes dirt, grime, and mildew to make your home shine.</p>
                     <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book house washing service">Book Now!</a>
-                </div>
-            </div>
-            <!-- Parking Lot Cleaning -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/parking-cleaning.png" alt="Professional parking lot pressure washing service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Parking Lot Cleaning</h3>
-                    <p>Maintain a clean and professional appearance with our parking lot cleaning services.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book parking lot cleaning service">Book Now!</a>
-                </div>
-            </div>
-            <!-- Trash Bin Cleanout -->
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-                <div class="service-box d-flex flex-column">
-                    <img src="images/trash-cleaning.png" alt="Professional trash bin cleaning and sanitization service" class="img-fluid rounded mb-3" loading="lazy" width="300" height="150">
-                    <h3 class="text-center">Trash Bin Cleanout</h3>
-                    <p>Eliminate odors and grime with our thorough trash bin cleanout services.</p>
-                    <a href="#contact" class="btn btn-primary mt-auto" aria-label="Book trash bin cleanout service">Book Now!</a>
                 </div>
             </div>
         </div>
